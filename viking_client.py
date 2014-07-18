@@ -50,6 +50,7 @@ def geoLookup(source_ip, dest_ip, dest_port):
 	#print "ERR: GEOIP ERROR"
 	next
 
+# create the connection to the websocket server
 ws = create_connection("ws://localhost:8888/")
 
 
